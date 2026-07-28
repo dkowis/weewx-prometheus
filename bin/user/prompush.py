@@ -56,26 +56,28 @@ weather_metrics = {
         {'name':    'weewx_loop_windchill_degrees_f',             'type': 'gauge'},
     'dewpoint':
         {'name':    'weewx_loop_dewpoint_degrees_f',              'type': 'gauge'},
-    # 'windrun':
+    'windrun':
+        {'name':    'weewx_loop_windrun_miles',                   'type': 'gauge'},
     'humidex':
         {'name':    'weewx_loop_humidex_degrees_f',               'type': 'gauge'},
     'pressure':
         {'name':    'weewx_loop_pressure_in',                     'type': 'gauge'},
-    # ET':
+    'ET':
+        {'name':    'weewx_loop_et_in',                           'type': 'gauge'},
     'rainRate':
         {'name':    'weewx_loop_rain_rate_in_per_hour',           'type': 'gauge'},
-    # 'usUnits':
     'appTemp':
         {'name':    'weewx_loop_apparent_temp_degrees_f',         'type': 'gauge'},
     'UV':
         {'name':    'weewx_loop_uv_index',                        'type': 'gauge'},
-    # dateTime
     'windDir':
         {'name':    'weewx_loop_wind_speed_direction_degrees',    'type': 'gauge'},
     'outTemp':
         {'name':    'weewx_loop_outside_temp_degrees_f',          'type': 'gauge'},
     'windSpeed':
         {'name':    'weewx_loop_wind_speed_mph',                  'type': 'gauge'},
+    'beaufort':
+        {'name':    'weewx_loop_beaufort_scale',                  'type': 'gauge'},
     'windSpeed10':
         {'name':    'weewx_loop_10_min_wind_speed_mph',           'type': 'gauge'},
     'inHumidity':
